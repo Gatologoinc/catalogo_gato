@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Catalogo PUG</title>
+    <link rel="stylesheet" href="contacto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="contacto.js" defer></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">Catalogo Gato</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="faq.html">Preguntas Frecuentes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- CONTACT -->
+    <section class="contact-section">
+      <!-- LEFT -->
+      <div class="contact-info">
+        <h1>Ponte en contacto con nosotros!</h1>
+
+        <p>
+          Si tienes dudas sobre algun producto puedes comunicarte con nosotros
+          mediante estos medios o rellenando el formulario.
+        </p>
+
+        <!-- INFO -->
+        <div class="info-container">
+          <div class="info-box">
+            <h3>> Teléfonos</h3>
+            <p>56 5652 9497</p>
+            <p>56 5660 9782</p>
+          </div>
+          <div class="info-box">
+            <h3>> Correo Electronico</h3>
+            <p>gatologoinc@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="contact-form">
+        <h2>Enviar un mensaje</h2>
+
+        <form id="formulario_contacto">
+          <div class="input-group">
+            <input
+              id="nombre_usuario"
+              type="text"
+              placeholder="Nombre"
+              required
+            />
+
+            <input
+              id="correo_usuario"
+              type="email"
+              placeholder="Correo electrónico"
+              required
+            />
+          </div>
+
+          <input
+            id="asunto_usuario"
+            type="text"
+            placeholder="Asunto"
+            required
+          />
+
+          <textarea
+            id="mensaje_usuario"
+            placeholder="Escribe tu mensaje"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
