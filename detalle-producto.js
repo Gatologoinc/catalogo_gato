@@ -171,7 +171,7 @@ if (producto_seleccionado === "guitarra_electrica") {
   porPieza = "";
   piezasProducto = "1";
 } else if (producto_seleccionado === "tela_antihelada") {
-  tituloProducto = "Tela Antihelada para Invenadero";
+  tituloProducto = "Tela Antihelada para Invernadero";
   descripcionProducto =
     "Tela antiheladas, fabricada con materiales de alta calidad es semivalente (permite la adecuada circulacion del aire y la luz), 20cm de ancho, 2.1m de largo.";
   precioProducto = "350";
