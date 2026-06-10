@@ -9,14 +9,7 @@ var porPieza = "";
 var piezasProducto = "";
 
 //SI esto esta hecho con la patas pero y que, funciona y ya con eso me basta :)
-if (producto_seleccionado === "guitarra_electrica") {
-  tituloProducto = "Guitarra Electrica";
-  descripcionProducto =
-    "Guitarra electrica perfecta para principiantes color blanca.  Incluye 1 guitarra, 1 Juego de cuerdas, 1 mochila de guitarra, 1 mini-amplificador, 1 Cable de audio, 1 Correa y 3 puas .";
-  precioProducto = "1300";
-  porPieza = "";
-  piezasProducto = "1";
-} else if (producto_seleccionado === "perchero_metalico") {
+if (producto_seleccionado === "perchero_metalico") {
   tituloProducto = "Organizador de ropa metalico";
   descripcionProducto =
     "Perchero de metal color negro para organizar ropa y zapatos. Medidas 175 cm de Largo x 194 cm de Alto x 40 cm de Ancho. Capacidad de hasta 400 Kg. Require ensamblado.";
@@ -112,8 +105,8 @@ if (producto_seleccionado === "guitarra_electrica") {
   descripcionProducto =
     "Equipo versátil el cual permite intercambiar sus componentes para trabajar diferentes superficies, Plancha plana (29 x 38 cm) para camisetas o artículos planos, prensa para gorras, prensas para tazas de 9 oz y 11 oz, prensas  para platos diámetros de 8 y 10 pulgadas. Con control digital: Posee una caja para configurar el tiempo (segundos) y la temperatura hasta 210°C y con brazo giratorio de 360°.";
   precioProducto = "5000";
-  porPieza = "c/u";
-  piezasProducto = "2";
+  porPieza = "";
+  piezasProducto = "1";
 } else if (producto_seleccionado === "maquina_tazas") {
   tituloProducto = "Maquina para Sublimar Tazas";
   descripcionProducto =
